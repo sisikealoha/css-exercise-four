@@ -1,4 +1,81 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #dadada;
   font-size: 10px;
+  margin: 40px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+div {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content {
+  width: 100px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.first-pic {
+  width: 100%;
+}
+
+.second-pic {
+  width: 100%;
+}
+
+.third-pic {
+  width: 100%;
+}
+
+.fourth-pic {
+  width: 100%;
+}
+
+
+
+/* code added to make two column design for tablet */
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+/* code added to make four column design for laptop */
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 16%;
+  }
 }
