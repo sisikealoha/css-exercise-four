@@ -67,7 +67,6 @@ div {
 /* code added to make two column design for tablet */
 @media screen and (min-width: 575px){
    div {
-    margin: 1%;
     width: 48%;
   }
 }
@@ -75,7 +74,6 @@ div {
 /* code added to make four column design for laptop */
 @media screen and (min-width: 991px){
    div {
-    margin: 1%;
     width: 16%;
   }
 }
